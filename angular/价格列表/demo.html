@@ -20,7 +20,7 @@
         运费:<span>{{things.money | currency}}</span><br>
         总额:<span>{{sum() + things.money | currency}}</span>
     </div>
-    <script src="../../angular.min.js"></script>
+    <script src="../angular.min.js"></script>
     <script>
         var app =  angular.module('app',[]);
         app.controller('firstController',function($scope,$timeout){
